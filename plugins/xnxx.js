@@ -4,7 +4,7 @@ let axios = require("axios");
 
 let handler = async (m, { conn, args, usedPrefix, command }) => {
 
-  if (!args[0]) throw `Linknya mana?`;
+  if (!args[0]) throw `*_Inserte un link de un video de la pagina xnxx_*`;
 
   let vidurl = args[0].replace("xnxx", "onlineonlineoxnn");
 
