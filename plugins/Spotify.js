@@ -1,4 +1,3 @@
-// Made By github.com/TOXIC-DEVIL
 let fetch = require('node-fetch')
 let handler = async(m, { conn, text }) => {
   if (!text) throw `Ingresa el título de la música!`
@@ -29,5 +28,5 @@ let spotifyinfo = `❒═════❬ SPOTIFY ❭═════╾❒
 handler.help = ['spotify <query>']
 handler.tags = ['internet']
 handler.command = /^(spotify|music)$/i
-// Made By github.com/TOXIC-DEVIL
+
 module.exports = handler
