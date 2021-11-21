@@ -27,7 +27,7 @@ handler.command = /^autojoin|join$/i
 handler.register = false
 handler.owner = false
 handler.private = false
-handler.premium = true
+handler.premium = false
 
 
 
