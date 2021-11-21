@@ -60,3 +60,8 @@ excesivamente lento
 ```bash
 `The Shadow Brokers - Bot ___ by Bruno Sobrino` 
 ```
+
+### `NOTAS`
+```bash
+> Creditos de los Bot utilizados en este edit a quienes correspondan, yo solo edite y combine bot existentes, me llevo bastante tiempo hacerlo :D
+```
