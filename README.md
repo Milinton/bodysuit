@@ -63,5 +63,7 @@ excesivamente lento
 
 ### `AGRADECIMIENTOS EXTRAS`
 ```bash
-> Creditos de los Bot utilizados en este edit a quienes correspondan, yo solo edite y combine bot existentes, me llevo bastante tiempo hacerlo :D
+> Creditos de los Bot utilizados en este edit a quienes correspondan, 
+yo solo edite y combine bots existentes, me llevo bastante tiempo hacerlo :D
+si le inverti tiempo a esto 
 ```
