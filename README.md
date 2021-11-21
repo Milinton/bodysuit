@@ -34,7 +34,7 @@ https://github.com/TheShadowBrokers1/TheShadowBrokers-Bot/archive/refs/heads/mas
 > pkg install ffmpeg -y
 > pkg install imagemagick -y
 > termux-setup-storage
-> cd storage/downloads/TheShadowBrokers-Bot
+> cd storage/downloads/TheShadowBrokers-Bot-master
 > npm install
 > npm install -g npm@8.1.4
 > npm update
