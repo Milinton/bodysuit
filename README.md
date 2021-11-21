@@ -61,7 +61,7 @@ excesivamente lento
 `The Shadow Brokers - Bot ___ by Bruno Sobrino` 
 ```
 
-### `NOTAS`
+### `AGRADECIMIENTOS EXTRAS`
 ```bash
 > Creditos de los Bot utilizados en este edit a quienes correspondan, yo solo edite y combine bot existentes, me llevo bastante tiempo hacerlo :D
 ```
