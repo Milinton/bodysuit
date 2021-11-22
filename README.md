@@ -10,23 +10,9 @@
 <a href="https://youtu.be/dP8-aaHinBE"><img height="30" src="https://github.com/shanduy/ShanBot/blob/main/temples/youtube-logo-6-2.png?raw=true"></a>&nbsp;&nbsp;
 > Dar click en la imagen para redireccionarlos a YouTube
 
-### `INSTALACION TERMUX OPCION 1 (GitHub)`
-```bash
-> pkg update && pkg upgrade
-> pkg install git -y
-> pkg install nodejs -y
-> pkg install ffmpeg -y
-> pkg install imagemagick -y
-> git clone https://github.com/TheShadowBrokers1/TheShadowBrokers-Bot
-> cd TheShadowBrokers-Bot
-> npm install
-> npm install -g npm@8.1.4
-> npm update
-> npm start
-```
-### `INSTALACION TERMUX OPCION 2 (Archivos)`
+### `INSTALACION DEL BOT VIA TERMUX`
 > Descarga aqui los achivos: 
-https://github.com/TheShadowBrokers1/TheShadowBrokers-Bot/archive/refs/heads/master.zip
+https://www.mediafire.com/file/js0ua4zpwrrug7b/Shadow.zip/file
 ```bash
 > pkg update && pkg upgrade
 > pkg install git -y
@@ -34,23 +20,18 @@ https://github.com/TheShadowBrokers1/TheShadowBrokers-Bot/archive/refs/heads/mas
 > pkg install ffmpeg -y
 > pkg install imagemagick -y
 > termux-setup-storage
-> cd storage/downloads/TheShadowBrokers-Bot-master
+> cd storage/downloads/Shadow
 > npm install
 > npm install -g npm@8.1.4
 > npm update
 > npm start
+> Escaneas el codigo QR tienes 30 segundos para hacerlo
 ```
 ### `NOTAS`
 ```bash
-> Si instalas el Bot con los archvios
-para obtener nuevamente el codigo QR,
+> Para obtener nuevamente el codigo QR,
 elimina el archivo session.data.json
 en la carpeta del Bot 
-> Si instalas el Bot con GitHub para 
-obtener nuevamente el codigo QR,
-elimina el datos de termux en ajustes 
-del telefono y repite todo el proceso 
-de instalacion
 > Aconsejable maximo 50 grupos, despues 
 de esa cantidad el Bot empieza a ir 
 excesivamente lento
@@ -65,7 +46,6 @@ desactivar estas funciones
 ```bash
 `The Shadow Brokers - Bot ___ by Bruno Sobrino` 
 ```
-
 ### `AGRADECIMIENTOS EXTRAS`
 ```bash
 > Creditos de los Bot utilizados en este edit a quienes correspondan, 
