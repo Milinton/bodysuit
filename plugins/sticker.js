@@ -33,7 +33,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
     if (stiker) await conn.sendMessage(m.chat, stiker, MessageType.sticker, {
       quoted: m
     })
-    else throw `*_Lo siento.., conversion fallida_*${m.isGroup ? ', *_vuelva a intentarlo, recuerde enviar o responder a la imagen con la leyenda: #s o #sticker, Le Recordamos Que No Convierte Videos A Stickers _*' : ''}`
+    else throw `Lo siento.., conversion fallida${m.isGroup ? ', _vuelva a intentarlo, recuerde enviar o responder a la imagen con la leyenda: #s o #sticker, Le Recordamos Que No Convierte Videos A Stickers _' : ''}`
   }
 }
 handler.help = ['stiker ', 'stiker <url>']
@@ -43,5 +43,5 @@ handler.command = /^s(tic?ker)?(gif)?(wm)?$/i
 module.exports = handler
 
 const isUrl = (text) => {
-  return text.match(new RegExp(/https?:\/\/(www\.)?[-a-zA-Z0-9@:%._+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_+.~#?&/=]*)(jpe?g|gif|png)/, 'gi'))
+  return text.match(new RegExp(/https?:\/\/(www\.)?[-a-zA-Z0-9@:%.+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%+.~#?&/=]*)(jpe?g|gif|png)/, 'gi'))
 }
